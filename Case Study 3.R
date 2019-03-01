@@ -1,5 +1,5 @@
 
-                           #  Case study 3 - Logistic Regression
+                           #  Project 3 - Logistic Regression
 
 #  Getting the data:
 mydata<- read.csv("E:\\Analytixlabs\\Module 6 (Data science using R)\\Case Studies\\Case study 3 - Logistic Regression\\Proactive Attrition Management-Logistic Regression Case Study.csv")
@@ -299,4 +299,4 @@ validation$CHURN<- as.factor(validation$CHURN)
 validation$pred_churn<- as.factor(validation$pred_churn)
 confusionMatrix(validation$pred_churn,validation$CHURN,positive = "1")
 
-############++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++############
+############++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#############
